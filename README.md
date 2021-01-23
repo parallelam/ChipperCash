@@ -1,5 +1,7 @@
 # Chipper Challenge
 
+<details><summary>Click to Show Challenge Details</summary>
+
 A Bank Identification Number, or BIN, works to protect both merchants and consumers in the online marketplace.
 
 Every credit or debit card contains a BIN, typically the first four to six numbers on a bank-issued card.
@@ -23,6 +25,8 @@ We have a collection of bin numbers stored in "bins.csv". There have been fraudu
 3. We should enforce that only cards from a particular country can be used. Lets create a function that takes in country code and the bin, returns a boolean output to confirm if the card was issued in that country. eg. isCardIssuedInCountry('Ghana', 5111456) => false
 
 Tips: We can use npm library called "binlookup" to help us get all the information we need to know about a card using their bin number. Also feel free to use any JS csv parser library you know
+
+</details>
 
 ## Solution
 
